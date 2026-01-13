@@ -12,6 +12,10 @@
 .display-flix{
     display: flex;
 }
+.section-title{
+    font-weight: 700px;
+    font-size: 2.8rem;
+}
 .text-primary{
     color: #FF900E;
 }
@@ -109,10 +113,7 @@ main > .teams{
     margin-left: 80px;
     max-width: 540px;
 }
-.feature-title{
-    font-weight: 700px;
-    font-size: 2.8rem;
-}
+
 #quick-list{
     font-weight: 500px;
 }
@@ -143,5 +144,5 @@ main > .teams{
     .teams{
         flex-direction: column;
     }
-    
+
 }
