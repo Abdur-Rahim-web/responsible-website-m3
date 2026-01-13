@@ -121,8 +121,56 @@ main > .teams{
    font-size: 1rem;
     line-height: 26px;
     color: #727272;
-    margin: 24px 0 30px; 
+    margin: 24px 0 30px;
+}    
+ /* facts related style  */
+ .Some-Facts{
+    max-width: 1390px;
+    margin: 130px auto;
+ }
+.facts-container{
+    max-width: 1340px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 100px 80px 180px 150px;
 }
+.facts-card{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.facts-number{
+    font-size: 2.8rem;
+     font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.facts-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin: 24px 0 30px;
+}
+.Sponspors-title{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Sponspors-img{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    max-width: 1440px;
+    margin: 50px 0px 130px 160px;
+    gap: 80px;
+    filter: grayscale();
+}
+   
 /* responsiv media query for small devise  */
 @media screen and (max-width:576px) {
     .navbar,
@@ -130,19 +178,44 @@ main > .teams{
     .teams{
         flex-direction: column;
     }
-    .team-img-container{
+    .team-img-container,
+    .facts-container,
+    .Sponspors-img{
         grid-template-columns: repeat(1,1fr);
     }
     .our-features{
         text-align: center;
         margin-right: 50px;
     }
+    .Sponspors-title{
+        text-align: center;
+        margin-right: 10px;
+    }
+    .facts-container{
+        padding-right: 60px;
+        justify-content: center;
+        gap: 20px;
+    }
+    .Sponspors-img{
+         padding-right: 150px;
+        justify-content: center;
+    }
+    
     
 }
-/* responsiv media query for small devise  */
+/* responsiv media query for medium devise  */
 @media screen and (min-width:576px) and (max-width:992px) {
     .teams{
         flex-direction: column;
+    }
+    .facts-container,
+    .Sponspors-img{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .facts-container{
+        padding-right: 60px;
+        justify-content: center;
+        gap: 20px;
     }
 
 }
