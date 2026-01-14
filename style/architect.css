@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box
+}
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -27,6 +29,13 @@
 .text-light-gray{
     color: #727272;
 }
+/* dark 01  */
+.text-black{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(19, 19, 19, 1);
+    margin: 0;
+}
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
@@ -47,12 +56,6 @@ main > .teams{
     margin-top: 130px;
 }
 
-
-/* header style  */
-
-
-
-
 /* nav related style  */
 .navbar{
     justify-content: space-between;
@@ -69,7 +72,7 @@ main > .teams{
 }
 .nav-link{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500px;
     line-height: 26px;
     
@@ -121,8 +124,27 @@ main > .teams{
    font-size: 1rem;
     line-height: 26px;
     color: #727272;
-    margin: 24px 0 30px;
+    margin: 5px 0 25px;
 }    
+/* Features related style */
+.Features{
+    max-width: 1440px;
+    margin: 130px 50px 0;
+    display: flex;
+    gap: 50px;
+}
+#section-title-border{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.Features-card{
+    padding:  20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+}
+
  /* facts related style  */
  .Some-Facts{
     max-width: 1390px;
@@ -157,6 +179,8 @@ main > .teams{
     margin-top: 5px;
     margin: 24px 0 30px;
 }
+/* Sponspors related style */
+
 .Sponspors-title{
     max-width: 542px;
     margin: 0 auto;
