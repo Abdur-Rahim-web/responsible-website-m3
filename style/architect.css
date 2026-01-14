@@ -133,6 +133,9 @@ main > .teams{
     display: flex;
     gap: 120px;
 }
+.Features img{
+    width: 100%;
+}
 #section-title-border{
     border-left: 5px solid #FF900E;
     padding-left: 21px;
@@ -226,7 +229,9 @@ footer{
 @media screen and (max-width:576px) {
     .navbar,
     .nav-links,
-    .teams{
+    .teams,
+    footer,
+    .Features{
         flex-direction: column;
     }
     .team-img-container,
@@ -236,16 +241,19 @@ footer{
     }
     .our-features{
         text-align: center;
-        margin-right: 50px;
+        margin-right: 70px;
     }
     .Sponspors-title{
         text-align: center;
         margin-right: 10px;
     }
     .facts-container{
-        padding-right: 60px;
+        padding-right: 70px;
         justify-content: center;
         gap: 20px;
+    }
+    .title-container{
+        padding-right: 30px;
     }
     .Sponspors-img{
          padding-right: 150px;
@@ -256,17 +264,28 @@ footer{
 }
 /* responsiv media query for medium devise  */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams,
+    footer,
+    .Features{
         flex-direction: column;
+    }
+    .our-features{
+        text-align: center;
+        margin-right: 70px;
     }
     .facts-container,
     .Sponspors-img{
         grid-template-columns: repeat(2,1fr);
     }
     .facts-container{
-        padding-right: 60px;
+        padding-right: 80px;
         justify-content: center;
         gap: 20px;
+    }
+    .Sponspors-img{
+         padding-right: 150px;
+        justify-content: center;
+        gap: 50px;
     }
 
 }
