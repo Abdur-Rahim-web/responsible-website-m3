@@ -133,9 +133,6 @@ main > .teams{
     display: flex;
     gap: 120px;
 }
-.Features img{
-    width: 100%;
-}
 #section-title-border{
     border-left: 5px solid #FF900E;
     padding-left: 21px;
@@ -152,7 +149,7 @@ main > .teams{
    font-weight: 500px;
    color: #FFFFFF;
    padding: 45px 35px;
-   margin-top: -100px;
+   margin-top: -50px;
    margin-left: -80px;
     
 }
@@ -243,9 +240,13 @@ footer{
         text-align: center;
         margin-right: 70px;
     }
-    .Sponspors-title{
-        text-align: center;
-        margin-right: 10px;
+    .Features img{
+        width: 100%;
+    }
+    #Experience-badge{
+        margin-top: 10px;
+        margin-left: 0px;
+        padding: 10px;
     }
     .facts-container{
         padding-right: 70px;
@@ -254,6 +255,10 @@ footer{
     }
     .title-container{
         padding-right: 30px;
+    }
+    .Sponspors-title{
+        text-align: center;
+        margin-right: 10px;
     }
     .Sponspors-img{
          padding-right: 150px;
@@ -272,6 +277,13 @@ footer{
     .our-features{
         text-align: center;
         margin-right: 70px;
+    }
+    .Features img{
+        width: 100%;
+    }
+    #Experience-badge{
+        margin-top: 10px;
+        margin-left: 120px
     }
     .facts-container,
     .Sponspors-img{
